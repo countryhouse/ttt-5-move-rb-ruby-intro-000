@@ -13,8 +13,8 @@ def input_to_index(num)
 end
 
 board = [" ", " ", " "]
-def move(array, index, value)
-  array[index] = value
+def move(array, index, player)
+  array[index] = player
 end
 
 move(board, 0, "X")
