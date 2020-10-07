@@ -19,4 +19,4 @@ end
 
 move(board, 0, "X")
 
-board
+display_board
