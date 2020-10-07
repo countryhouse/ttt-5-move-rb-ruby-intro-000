@@ -13,8 +13,8 @@ def input_to_index(num)
   num.to_i - 1
 end
 
-def move(array, index, character = "X")
-  array[index] = character
+def move(board, index, character = "X")
+  board[index] = character
 end
 
-array
+board
